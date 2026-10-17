@@ -15,7 +15,7 @@ cd source
 pnpm install --frozen-lockfile
 pnpm build --stub
 cd ../reproduction
-pnpm install --frozen-lockfile
+pnpm install --frozen-lockfile --ignore-workspace
 pnpm build
 pnpm check
 ```
