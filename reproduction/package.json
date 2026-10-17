@@ -1,0 +1,14 @@
+{
+  "name": "nitro-prerender-response-header-reproduction",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nitro build",
+    "check": "node check.mjs"
+  },
+  "devDependencies": {
+    "nitro": "link:../source",
+    "rolldown": "1.2.14"
+  },
+  "packageManager": "pnpm@11.28.5"
+}
